@@ -1,6 +1,12 @@
-<div class="parent-fragment" th:fragment="parent(content)">
-    <h1>This is parent fragment</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae id odio fugiat consequatur. Ipsa ratione similique at temporibus voluptas porro vel corrupti. Vero libero autem velit natus ea accusantium.
-        </p>
-    <div th:replace="${content}"></div>
-</div>
+<!DOCTYPE html>
+<html lang="en" th:fragment="parent" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Page</title>
+    <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
+</head>
+<body>
+    Base Page Content
+</body>
+</html>
